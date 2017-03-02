@@ -1,0 +1,19 @@
+{
+  "name": "gnpnpng16",
+  "version": "1.0.0",
+  "description": "GNPNPNG16's Not PNPNG16 Nor PNG16 Nor Grossi16",
+  "main": "index.js",
+  "scripts": {
+    "test": "testar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esteclobo/GNPNPNG16.git"
+  },
+  "author": "the crustaceans",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/esteclobo/GNPNPNG16/issues"
+  },
+  "homepage": "https://github.com/esteclobo/GNPNPNG16#readme"
+}
