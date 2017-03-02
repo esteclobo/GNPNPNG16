@@ -1,0 +1,1 @@
+-Implementar um log history das questões, respostas e número de respostas.
