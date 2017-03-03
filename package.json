@@ -4,7 +4,7 @@
   "description": "GNPNPNG16's Not PNPNG16 Nor PNG16 Nor Grossi16",
   "main": "index.js",
   "scripts": {
-    "test": "testar"
+      "start": "electron server.js"
   },
   "repository": {
     "type": "git",
