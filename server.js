@@ -7,7 +7,7 @@ const path = require('path');
 
 // Express stuff ===============================================
     
-app.use(express.static('public'));
+appserver.use(express.static('public'));
 
 appserver.get('/', function (req, res) {
     res.send('alkjsdf');
@@ -24,16 +24,18 @@ var server = appserver.listen(8081, function () {
 // Electron stuff ==============================================
 
 const {app, BrowserWindow} = require('electron')
-const pug = require('electron-pug')
+const pug = require('electron-pug')()
 
 app.on('ready', () => {
 
     let win = new BrowserWindow()
-    win.loadUrl(url.format({
-        protocol: 'file';
+    win.loadURL(url.format({
+        protocol: 'file',
         pathname: path.join(__dirname, 'views', 'teacher-screen.pug')
     }))
 
 })
 
-                
+app.on('windows-all-closed', () => {
+    app.quit()
+})

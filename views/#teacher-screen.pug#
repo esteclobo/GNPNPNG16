@@ -5,4 +5,4 @@ html
 
   body
     p hello tch
-    p <p> Texto entre tags</p>
+    p Texto entre tags
