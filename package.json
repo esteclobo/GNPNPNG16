@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/esteclobo/GNPNPNG16#readme",
   "dependencies": {
-    "electron": "^1.6.1",
+    "electron": "^9.1.0",
     "electron-pug": "^1.5.1",
     "express": "^4.15.0",
     "pug": "^2.0.0-beta11",
